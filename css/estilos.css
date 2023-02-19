@@ -1,0 +1,373 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    
+}
+body{
+    width: 100%;
+    height: 100vh;
+    background-color: #dee1e3;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+/* =======ESTILOS DEL NAVBAR=============== */
+#line{
+    width: 70%;
+    border: 2px solid rgb(26, 23, 158);
+    margin: auto;
+    margin-top: 30px;
+}
+
+.hair{
+    width: 80px;
+    height:80px;
+    filter: invert(1);
+}
+.img-hea {
+    text-decoration: none;
+}
+.twit,.inst {
+    width: 35px;
+    height: 35px;
+    filter: invert(1);
+    margin: 5px;
+}
+.face {
+    width: 39px;
+    height: 39px;
+    margin: 5px;
+    filter: invert(1);
+}
+
+.whats{
+    width: 70px;
+    margin-left: 90%;
+    
+}
+.texto-p {
+    font-weight: 900;
+}
+
+/* ============================= 
+    ESTILOS  DE COMENTARIOS
+=================================== */
+.comentarios {
+    margin: 20px 0;
+}
+.form_comentarios textarea {
+    /* width: 100%; */
+    height: 84px;
+    max-width: 100%;
+    min-width: 100%;
+    min-height: 84px;
+    max-height: 300px;
+    padding: 10px;
+    line-height: 30px;
+    border: 1px solid #4b65d1;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+#botonC:hover{
+    box-shadow: 0px 0px 9px rgba(0, 0, 0, .35);
+}
+#chicas{
+    width: 64px;
+    height: 64px;
+}
+.media {
+    border-top: 1px solid#bfbfbf;
+    padding-top: 20px;
+}
+.media #chicas{
+    margin-right: 20px;
+    overflow: hidden;
+    border-radius: 70px;
+    float: left;
+}
+.media .nombre{
+    color: #4b65b1;
+    margin-bottom: 0;
+}
+.media .nombre span {
+    font-size: 12px;
+    color: #464646;
+    margin-left: 10px;
+}
+.media .comentario{
+    margin-top: 10px;
+}
+.media .botones{
+    margin-bottom: 10px;
+}
+.botones a{
+    color: #acacac;
+    font-size: 14px;
+    margin-left: 20px;
+}
+p{
+    flex-wrap: nowrap;
+}
+.about{
+left: 150px;
+top: 500px;
+}
+/*===============================
+========estilos del footer=======
+============================= */
+.faceb, .insta, .twuit {
+    width: 40px;
+    height: 40px;
+    filter: invert(1);
+    
+}
+
+.casa{min-height: 100%;}
+.texto{
+    font-size: 18px;
+}
+.row {
+    width: 100%;
+    flex-wrap: wrap;
+
+}
+/* .col {
+    flex-basis: 25%;
+   
+} */
+.hairF {
+    width: 120px;
+    height:120px;
+    filter: invert(1);
+}
+.hairF:hover {
+   filter: invert(75%);
+   /* transform: skew(20deg);
+   */
+}
+
+h4{
+    font-style: italic;
+}
+ul li{
+    list-style: none;
+}
+ul li a{
+    text-decoration: none;
+    
+}
+
+i{
+    color: white;
+    font-weight: lighter;
+    
+}
+i:hover {
+    color: #4b65d1;
+}
+/* =============
+estilos de NOSOTROS
+============ */
+.lafoto{
+    margin-top: 95px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.loca{
+    height: 100vh;
+}
+/*================================
+ESTILOS DE PAGINA DE CONTACTO================================
+============================= */
+.elotro{
+    background: #e7e8eb;
+    box-shadow: 0 0 40px -10px;
+    padding: 20px;
+}
+#nombre1 {
+    width: 100%;
+    padding: 8px;
+    background:none;
+    outline: none;
+    border: none;
+    
+    border-bottom: 2px solid rgb(119, 104, 106);
+}
+#nombre1:focus {
+    border-bottom: 2px solid rgb(38, 38, 122);
+}
+#nv{
+    font-weight: bold;
+}
+#emoj {
+    color: #0f0e0e;
+}
+#lineC {
+    width: 70%;
+    border: 2px solid rgba(92, 91, 134, 0.945);
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.modelo {
+    box-shadow: 0 5px 40px 5px;
+    border-radius: 5px;
+}
+
+
+/* estilos de boton de archivos CV */
+#archiv1{
+    padding: 3px;
+    background-color: #616d75;
+    position: relative;
+    margin: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 3px 0px #414547;
+}
+#archiv {
+        position: absolute;
+        top: 0px;
+        right: 0px;
+        bottom: 0px;
+        left: 0px;
+        opacity: 0;
+    
+
+}
+#eltext{
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 10px;
+}
+
+/* estilos de formulario de modal */
+
+.form1 {
+    margin: auto;
+    padding: 15px;
+    box-shadow: 0 1rem 1rem rgba(0, 0, 0, .3);
+    border-radius: 5px;
+    color:#fff;
+}
+
+#inp {
+    height: 40px;
+    padding: 5px 6px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    background:none;
+    outline: none;
+    border: none;
+    border-bottom: 2px solid rgb(119, 104, 106);
+}
+
+.termi {
+    margin-top: 30px;
+}
+.whatsY {
+    position: fixed;
+    width: 55px;
+    height: 55px;
+    line-height: 55px;
+    bottom: 30px;
+    right: 30px;
+    background: #0df053;
+    color: #fff;
+    border-radius: 20px;
+    text-align: center;
+    font-size: 30px;
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.3);
+    z-index: 10;
+}
+.whatsY:hover {
+    color: #0df053;
+    background: #fff;
+}
+/* .curly {
+    box-shadow: 0 5px 40px 5px;
+} */
+
+
+
+/* =========Inicio de estilos pagina de mechas====== */
+.mecha {
+    margin-top: 120px;
+}
+.linec {
+    border: 2px solid rgb(26, 23, 158);
+
+}
+.elasid {
+    position: relative;
+    bottom: 130rem;
+    right: 10%;
+}
+
+#asi {
+    text-decoration: none;
+}
+#lineA {
+    /* width: 70%; */
+    border: 2px solid rgb(26, 23, 158);
+    margin: auto;
+    
+}
+#lineB {
+    border: 2px solid rgb(10, 9, 78);
+    border: dashed;
+    margin: 25px;
+}
+main {
+    margin-top: 50px;
+}
+main h1 {
+    margin: 30px;
+}
+.interes {
+    font-weight: 700;
+}
+iframe {
+    border-radius: 20px;
+    box-shadow: 0 5px 40px 5px; 
+}
+.pixie, .nap-bob, .shag, .carre {
+    border-top-left-radius: 40px;
+    border-bottom-right-radius: 40px; 
+}
+.balayage, .californianas, .babylights, .bronde {
+    border-top-left-radius: 40px;
+    border-bottom-right-radius: 40px; 
+}
+/* =========FORMULARIO DE CONTACTO DE MAQUILLAJE Y PEINADO============ */
+.peine {
+    padding: 30px;
+}
+/* ESTILOS DE MANICURIA */
+
+
+
+/* medias querys */
+@media (max-width:1200px) {
+    leparraf {
+        display: block;
+    }
+}
+
+
+@media (max-width:576px) {
+    .linec {
+        width: 90%;
+    }
+}
+@media (max-width:1200px) {
+    .elasid {
+       bottom: 120rem;
+    }
+}
+@media (max-width:576px) {
+    .elasid {
+        display: none;
+    }
+}

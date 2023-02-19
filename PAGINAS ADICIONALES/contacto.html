@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CONTACTO | Hair Style </title>
+  <!-- Icono de peluquería -->
+  <link rel="shortcut icon" href="https://cdn-icons-png.flaticon.com/512/40/40796.png" type="image/x-icon">
+  <!-- Hoja de estilos CSS -->
+  <link rel="stylesheet" href="/css/estilos.css">
+  <!-- Bootstrap 5 -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+  <!-- iconos de Bootstrap -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+  <!-- Google fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <header>
+    <nav class="navbar fixed-top bg-dark navbar-expand-lg bg-body-tertiory ">
+      <div class="container ">
+        <a href="../index.html">
+          <img src="https://cdn-icons-png.flaticon.com/512/40/40796.png" class="hair" alt="logo"></a>
+        <button class="navbar-toggler bg-light" type="button" data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+          aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-center" id="navbarSupportedContent">
+          <ul class="navbar-nav mx-auto">
+            <li class="nav-item ">
+              <a class="nav-link active text-light " id="nv" aria-current="page"
+                href="../index.html">INICIO</a>
+            </li>
+            <li class="nav-item ">
+              <a class="nav-link  text-light " id="nv" aria-current="page"
+                href="/PAGINAS ADICIONALES/nosotros.html">NOSOTROS</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-light " id="nv" href="/PAGINAS ADICIONALES/contacto.html">CONTACTO</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle text-light" id="nv" href="#" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                SERVICIOS
+              </a>
+              <ul class="dropdown-menu text-bg-secondary">
+                <li><a class="dropdown-item" href="/PAGINAS ADICIONALES/page404.html">Alisado</a></li>
+                <li><a class="dropdown-item" href="/PAGINAS ADICIONALES/mechas.html">Balayage</a></li>
+                <li><a class="dropdown-item" href="/PAGINAS ADICIONALES/color.html">Coloración con tintes orgánicos</a></li>
+                <li><a class="dropdown-item" href="/PAGINAS ADICIONALES/tendencias.html">Cortes</a></li>
+                <li><a class="dropdown-item" href="/PAGINAS ADICIONALES/curly.html">Curly hair</a></li>
+                <li><a class="dropdown-item" href="/PAGINAS ADICIONALES/manicuria.html">Manicuría y pedicuría</a></li>
+                <li><a class="dropdown-item" href="/PAGINAS ADICIONALES/peinados.html">Maquillaje social</a></li>
+                <li><a class="dropdown-item" href="/PAGINAS ADICIONALES/peinados.html">Peinados de fiesta</a></li>
+              </ul>
+            </li>
+          </ul>
+          <a class="img-hea" href="https://es-la.facebook.com/" target="_blank">
+          <img src="https://cdn-icons-png.flaticon.com/128/4138/4138166.png" class="face" alt="facebook">
+        </a>
+        <a class="img-hea" href="https://www.instagram.com/" target="_blank">
+          <img src="https://cdn-icons-png.flaticon.com/128/4494/4494468.png" class="inst" alt="instagram">
+          </a>
+          <a class="img-hea" href="https://twitter.com/?lang=es" target="_blank">
+          <img src="https://cdn-icons-png.flaticon.com/128/1384/1384017.png" class="twit" alt="twiter">
+        </a>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <!--Fin del navbar-->
+
+  <!-- Sección de contacto -->
+  <section>
+    <div class="container mt-5 p-5">
+      <div class="row ">
+        <div class="my-3 p-2 col text-center text-dark-emphasis float-right">
+          <h5>CONTACTO | Hair Style</h5>
+          <hr id="lineC">
+
+          <div class="p-1 mb-3">
+            <form action="#" class="was-validated">
+              <label for="" class="text-dark">NOMBRE Y APELLIDO</label>
+              <input type="text" class="form-control" name="name" id="nombre1" minlength="3" maxlength="25" required>
+          </div>
+          <div class="was-validated">
+            <div class=" p-1 mb-3">
+              <label for="" class="text-dark">EMAIL</label>
+              <input type="email" class="form-control" name="correo" id="nombre1" required>
+            </div>
+            <div class="was-validated">
+              <label for="">MENSAJE</label>
+              <textarea class="cuadro form-control text-center" minlength=20 maxlength="300" id="nombre1" required
+                rows="4" required></textarea>
+              <div class="invalid-feedback text-dark">Escribe un min. de 50 caracteres a un max. 300 caracteres</div>
+              <div class="valid-feedback text-dark">Gracias por contactarte, te responderemos a la brevedad.</div>
+              <button type="submit" class="btn d-grid btn-secondary col-6 mx-auto mt-3">Enviar
+              </button>
+              </form>
+              <hr id="lineC">
+
+              <!-- Button trigger modal -->
+              <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+                TRABAJÁ CON NOSOTROS
+              </button>
+
+              <!-- Modal -->
+              <div class="modal fade " id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false"
+                tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h1 class="modal-title fs-5" id="staticBackdropLabel">FORMULARIO DE EMPLEO</h1>
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                      <form action="" class="form1">
+                        <input type="text" class="w-100" name="" required placeholder="Ingrese su nombre" id="inp">
+                        <input type="text" class="w-100" name="" required placeholder="Ingrese su apellido" id="inp">
+                        <input type="date" class="w-100" name="" required placeholder="Ingrese su fecha de nac."
+                          id="inp">
+                        <input type="email" class="w-100" name="" required placeholder="Ingrese su email" id="inp">
+                        <input type="tel" class="w-100" name="" required placeholder="Ingrese su nro de telefono"
+                          id="inp">
+                        <input type="text" class="w-100" name="" required placeholder="Ingrese su direccion" id="inp">
+
+                        <!-- boton de archivos -->
+                        <div class="text-center" id="archiv1">
+                          <p id="eltext">SUBIR CV</p>
+                          <input type="file" name="" id="archiv">
+                        </div>
+
+                        <p class="text-center mb-3 text-dark">¿Que modalidad preferis?</p>
+                        <div class="text-center text-dark ">
+                          <input type="radio" name="part" value="part-time" id="radios" required>
+                          <label for="" class="px-1">part-time</label>
+                          <input type="radio" name="part" value="full-time" id="radios" required>
+                          <label for="" class="px-1">full-time</label>
+                        </div>
+                        <div class="termi text-center mb-3">
+                          <input type="checkbox" name="terminos" id="check" required>
+                          <label for=""><a href="" class="">Acepto terminos y condiciones</a></label>
+                        </div>
+
+
+                        <button type="submit" class="btn btn-primary col-12">Enviar</button>
+
+                      </form>
+
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancelar</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-6  my-3">
+          <img
+            src="https://static.wixstatic.com/media/47c829_41f7585e9b7942c2bb0839b4b6b09a28~mv2.jpg/v1/crop/x_362,y_634,w_1485,h_2066/fill/w_507,h_704,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/FDB_3821_JPG.jpg"
+            class="modelo  img-fluid" alt="modelo femenino">
+        </div>
+        <hr id="lineC">
+
+        <div class="text-center">
+          <h4>Contacto</h4>
+          <p><i class="bi bi-geo-alt-fill" id="emoj"> Baigorria 7,Río Cuarto, Córdoba, Argentina.</i></p>
+          <p><i class="bi bi-telephone-fill" id="emoj"> (351) 423567</i></p>
+          <p><i class="bi bi-whatsapp" id="emoj"> cel: (358) 4020740</i></p>
+          <p><i class="bi bi-envelope-fill" id="emoj"> hairstyle@gmail.com</i></p>
+
+          <iframe class="w-100 my-4 "
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3341.5281316709575!2d-64.34979888528676!3d-33.121487188089354!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95d2000d73401441%3A0xe6eaf5f11c9573cd!2sDorita%20Araya%20Peluquer%C3%ADa!5e0!3m2!1ses-419!2sar!4v1673667515069!5m2!1ses-419!2sar"
+            style="width: 450;height: 250; border-radius: 5px;box-shadow: 0 0 40px -10px;" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Fin del section -->
+
+  <!-- comienzo del footer -->
+  <footer class="container-fluid  mt-auto bg-dark text-light">
+    <div class="row   mt-4">
+      <div class="contacto col-sm-6 col-md-3 ps-5">
+        <h4>Contacto</h4>
+        <p><i class="bi bi-geo-alt-fill"> Baigorria 7, Río Cuarto, Córdoba, Argentina.</i></p>
+        <p><i class="bi bi-telephone-fill"> (351) 423567</i></p>
+        <p><i class="bi bi-whatsapp">  cel: (358) 4020740</i></p>
+        <p><i class="bi bi-envelope-fill"> hairstyle@gmail.com</i></p>
+      </div>
+      <div class="redes col-sm-6 col-md-3 ps-sm-5">
+        <h4 class="ms-4">Seguínos</h4>
+        <ul>
+          <li>
+            <a href="https://es-la.facebook.com/" target="_blank"><i class="bi bi-facebook ">  Facebook</i></a>
+          </li>
+          <li>
+            <a href="https://www.instagram.com/" target="_blank"><i class="bi bi-instagram my-4"> Instagram</i></a>
+          </li>
+          <li>
+            <a href="https://ar.pinterest.com/" target="_blank"><i class="bi bi-pinterest my-4"> Pinterest</i></a>
+          </li>
+          <li>
+            <a href="https://twitter.com/?lang=es" target="_blank"><i class="bi bi-twitter my-4"> Twitter</i></a>
+          </li>
+        </ul>
+      </div>
+      <div class="hora col-sm-6 col-md-3 ps-5">
+        <h4>Horarios</h4>
+        <p>- Lunes a Miércoles de 9:00 a 13:00 y 
+          de 17:00 a 21:00 hrs.</p>
+        <p>- Jueves a sábados de 9:00 a 20:00 hrs.</p>
+      </div>
+
+      <div class="col-sm-6 col-md-3  text-center">
+        <a href="/index.html">
+          <img src="https://cdn-icons-png.flaticon.com/512/40/40796.png" class="hairF" alt="icono de peluquería">
+        </a>
+      </div>
+        </div>
+        <hr>
+        <div class="row text-center">
+          <div class="col">
+            <p>&#169  2023 - by Hair Style - Todos los derechos reservados</p>
+          </div>
+        </div>
+    </div>
+  </footer>
+  <!-- Fin del footer -->
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
